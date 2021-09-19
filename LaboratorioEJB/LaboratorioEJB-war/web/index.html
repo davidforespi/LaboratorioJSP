@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="./CalcServlet" method="POST">
+            <center>
+                <h1> CALCULADORA </h1>
+            <table border="1">
+                <tbody>
+                    <tr>
+                        <td> <input type="text" name="valor1"  /></td>
+                        <td>  <input type="text" name="valor2"  /></td>
+                    </tr>
+                    <tr>
+                   
+                        <td><input type="submit" value="+" name="Bsumar" /></td>
+                        <td><input type="submit" value="-" name="Brestar" /></td>
+                       
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="/" name="Bdividir" /></td>
+                         <td>  <input type="submit" value="*" name=Bmultiplicar /></td>
+                    </tr>
+                    <tr>
+        
+                        <td><input type="submit" value="%" name="Bmodulo" /></td>
+                        <td><input type="submit" value="^" name="Belevar" /></td>
+                    </tr>
+                  
+                 
+                </tbody>
+            </table>
+            </center>               
+        </form>
+    </body>
+</html>
